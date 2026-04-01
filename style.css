@@ -1,149 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background: #c8e6c9;
     color: #333;
     width: 100%;
     font-family: sans-serif;
+    margin:0 auto;
 }
 
 .header {
+    width:90%;
+    margin:auto;
+    height:120px;
     background: #ffccdd;
-    padding: 25px 20px;
-    text-align: center;
+    line-height:120px;
+    color:#fff;
 }
 
-.header h2 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-}
 
 .jarak {
-    padding: 0 20px;
+    padding: 0 20pc;
 }
 
 .menu {
     background: #b5d6b2;
-    padding: 15px 20px;
-    margin-bottom: 10px;
+    height:50px;
+    line-height:580px;
+    position:relative;
+    width:90%;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 .menu ul {
     list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-}
-
-.menu ul li {
-    margin: 0;
 }
 
 .menu ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 14px;
+    float:left;
+    width:78px;
+    display:block;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
 }
 
 .menu ul li a:hover {
-    text-decoration: underline;
+    background-color:#4b88bb;
+    display:block;
 }
 
 .content {
-    display: flex;
-    gap: 0;
-    margin: 10px;
-    background: #fff;
-    min-height: 350px;
+    width:90%;
+    margin:auto;
+    height:428px;
+    padding:0.1px;
+    background:#fff;
+    color:333;
 }
 
 .kiri {
     width: 65%;
-    padding: 20px;
-    border-right: 1px solid #ddd;
+    float:left;
+    margin:auto;
+    background: #fff;
+    height: 428px;
 }
 
 .kanan {
     width: 35%;
-    padding: 20px;
+    float:left;
+    margin:auoto;
+    background: #fff;
+    height: 428px;
 }
 
 .border {
-    border: 1px solid #999;
-    padding: 15px;
-    margin-bottom: 20px;
-    background: #fff;
-}
-
-.border h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.border p {
-    font-size: 13px;
-    margin-bottom: 12px;
-}
-
-.btn {
-    padding: 5px 10px;
-    background: #e8e8e8;
-    border: 1px solid #999;
-    cursor: pointer;
-    font-size: 12px;
-    color: #0066cc;
-}
-
-.btn:hover {
-    background: #ddd;
-}
-
-.kanan h3 {
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-}
-
-.kanan hr {
-    border: none;
-    border-top: 1px solid #999;
-    margin-bottom: 15px;
-}
-
-.kanan p {
-    margin-bottom: 8px;
-    font-size: 13px;
-}
-
-.kanan a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.kanan a:hover {
-    text-decoration: underline;
+    border: 2px solid #999;
+    margin-top:1pc;
+    padding-bottom: 1pc;
+    padding-left:2pc;
+    padding-right:2pc;
 }
 
 .undecor {
     text-decoration: none;
 }
 
-.fotter {
-    background: #b5d6b2;
-    padding: 12px 20px;
-    font-size: 12px;
-    text-align: left;
-}
-
-.fotter p {
-    margin: 0;
+.footer {
+    width:90%;
+    margin:auto;
+    height:48px;
+    line-height:48px;
+    background:#417aa8;
+    color:#fff;
+    margin-bottom:1pc;
 }
