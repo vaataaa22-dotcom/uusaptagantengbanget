@@ -11,7 +11,6 @@ body {
     margin:auto;
     height:120px;
     background: #ffccdd;
-    line-height:120px;
     color:#fff;
 }
 
@@ -21,9 +20,9 @@ body {
 }
 
 .menu {
-    background: #b5d6b2;
+    background-color: #b5d6b2;
     height:50px;
-    line-height:580px;
+    line-height:50px;
     position:relative;
     width:90%;
     padding: 0 auto;
