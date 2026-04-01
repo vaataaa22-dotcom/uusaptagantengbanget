@@ -10,6 +10,7 @@ body {
     width:90%;
     margin:auto;
     height:120px;
+    line-height:120px;
     background: #ffccdd;
     color:#fff;
 }
